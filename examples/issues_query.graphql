@@ -4,6 +4,42 @@ query IssuesQuery($owner: String!, $name: String!, $pageSize: Int!, $before: Str
             nodes {
                 title
                 url
+                    timelineItems(first: 2) {
+                    nodes {
+                        __typename
+                        ... on LabeledEvent {
+                            label {
+                                name
+                            }
+                            createdAt
+                        }
+                        ... on UnlabeledEvent {
+                            label {
+                                name
+                            }
+                            createdAt
+                        }
+                        ... on ClosedEvent {
+                            createdAt
+                        }
+                        ... on ReopenedEvent {
+                            actor {
+                                __typename
+                                login
+                            }
+                            createdAt
+                        }
+                        ... on IssueComment {
+                            createdAt
+                        }
+                    }
+                    pageInfo {
+                        endCursor
+                        hasNextPage
+                        hasPreviousPage
+                        startCursor
+                    }
+                }
             }
             pageInfo {
                 hasPreviousPage

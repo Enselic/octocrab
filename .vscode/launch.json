@@ -1,0 +1,1760 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in library 'octocrab'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--lib",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "octocrab",
+                    "kind": "lib"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'unlock'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=unlock",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "unlock",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'unlock'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=unlock",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "unlock",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'merge_branch'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=merge_branch",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "merge_branch",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'merge_branch'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=merge_branch",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "merge_branch",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'get_commit'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=get_commit",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "get_commit",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'get_commit'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=get_commit",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "get_commit",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'graphql_issues'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=graphql_issues",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "graphql_issues",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'graphql_issues'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=graphql_issues",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "graphql_issues",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'github_app_authentication'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=github_app_authentication",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "github_app_authentication",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'github_app_authentication'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=github_app_authentication",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "github_app_authentication",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'create_a_gist'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=create_a_gist",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "create_a_gist",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'create_a_gist'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=create_a_gist",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "create_a_gist",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'list_forks'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=list_forks",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "list_forks",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'list_forks'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=list_forks",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "list_forks",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'paging_results'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=paging_results",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "paging_results",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'paging_results'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=paging_results",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "paging_results",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'list_gists_for_token_holder'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=list_gists_for_token_holder",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "list_gists_for_token_holder",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'list_gists_for_token_holder'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=list_gists_for_token_holder",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "list_gists_for_token_holder",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'poll_org_events'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=poll_org_events",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "poll_org_events",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'poll_org_events'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=poll_org_events",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "poll_org_events",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'list_repos_for_authenticated_user'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=list_repos_for_authenticated_user",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "list_repos_for_authenticated_user",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'list_repos_for_authenticated_user'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=list_repos_for_authenticated_user",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "list_repos_for_authenticated_user",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'print_pr_diff'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=print_pr_diff",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "print_pr_diff",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'print_pr_diff'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=print_pr_diff",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "print_pr_diff",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'notifications'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=notifications",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "notifications",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'notifications'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=notifications",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "notifications",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'poll_repo_events'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=poll_repo_events",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "poll_repo_events",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'poll_repo_events'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=poll_repo_events",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "poll_repo_events",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'list_repos_starred_by_authenticated_user'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=list_repos_starred_by_authenticated_user",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "list_repos_starred_by_authenticated_user",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'list_repos_starred_by_authenticated_user'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=list_repos_starred_by_authenticated_user",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "list_repos_starred_by_authenticated_user",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'get_rate_limit'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=get_rate_limit",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "get_rate_limit",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'get_rate_limit'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=get_rate_limit",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "get_rate_limit",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'custom_client'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=custom_client",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "custom_client",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'custom_client'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=custom_client",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "custom_client",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'get_repo'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=get_repo",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "get_repo",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'get_repo'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=get_repo",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "get_repo",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'device_flow'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=device_flow",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "device_flow",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'device_flow'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=device_flow",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "device_flow",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'update_pull_request_branch'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=update_pull_request_branch",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "update_pull_request_branch",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'update_pull_request_branch'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=update_pull_request_branch",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "update_pull_request_branch",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'search_issues'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=search_issues",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "search_issues",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'search_issues'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=search_issues",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "search_issues",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'is_collab'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=is_collab",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "is_collab",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'is_collab'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=is_collab",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "is_collab",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'print_license'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=print_license",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "print_license",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'print_license'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=print_license",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "print_license",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'render_markdown'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=render_markdown",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "render_markdown",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'render_markdown'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=render_markdown",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "render_markdown",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'poll_events'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=poll_events",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "poll_events",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'poll_events'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=poll_events",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "poll_events",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'github_app_authentication_manual'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=github_app_authentication_manual",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "github_app_authentication_manual",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'github_app_authentication_manual'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=github_app_authentication_manual",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "github_app_authentication_manual",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'star_unstar_a_gist'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=star_unstar_a_gist",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "star_unstar_a_gist",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'star_unstar_a_gist'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=star_unstar_a_gist",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "star_unstar_a_gist",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'create_org_secret'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=create_org_secret",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "create_org_secret",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'create_org_secret'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=create_org_secret",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "create_org_secret",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'create_repo_secret'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=create_repo_secret",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "create_repo_secret",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'create_repo_secret'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=create_repo_secret",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "create_repo_secret",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'create_repo_from_template'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=create_repo_from_template",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "create_repo_from_template",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'create_repo_from_template'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=create_repo_from_template",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "create_repo_from_template",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'list_all_workflow_runs'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=list_all_workflow_runs",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "list_all_workflow_runs",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'list_all_workflow_runs'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=list_all_workflow_runs",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "list_all_workflow_runs",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'get_content'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=get_content",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "get_content",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'get_content'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=get_content",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "get_content",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'delete_repo'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=delete_repo",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "delete_repo",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'delete_repo'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=delete_repo",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "delete_repo",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug example 'list_org_self_hosted_runners'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--example=list_org_self_hosted_runners",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "list_org_self_hosted_runners",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in example 'list_org_self_hosted_runners'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--example=list_org_self_hosted_runners",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "list_org_self_hosted_runners",
+                    "kind": "example"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'repo_secrets_test'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=repo_secrets_test",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "repo_secrets_test",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'org_installations_test'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=org_installations_test",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "org_installations_test",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'team_members_tests'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=team_members_tests",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "team_members_tests",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'actions_self_hosted_runners'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=actions_self_hosted_runners",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "actions_self_hosted_runners",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'org_secrets_test'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=org_secrets_test",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "org_secrets_test",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'projects_user_create_project_test'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=projects_user_create_project_test",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "projects_user_create_project_test",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'projects_project_delete_test'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=projects_project_delete_test",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "projects_project_delete_test",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'commit_associated_check_runs_tests'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=commit_associated_check_runs_tests",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "commit_associated_check_runs_tests",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'events_test'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=events_test",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "events_test",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'projects_user_list_projects_test'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=projects_user_list_projects_test",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "projects_user_list_projects_test",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'projects_repo_list_projects_test'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=projects_repo_list_projects_test",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "projects_repo_list_projects_test",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'user_repositories_tests'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=user_repositories_tests",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "user_repositories_tests",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'projects_org_list_projects_test'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=projects_org_list_projects_test",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "projects_org_list_projects_test",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'issues_timeline_tests'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=issues_timeline_tests",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "issues_timeline_tests",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'projects_project_update_test'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=projects_project_update_test",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "projects_project_update_test",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'projects_org_create_project_test'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=projects_org_create_project_test",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "projects_org_create_project_test",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'mock_error'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=mock_error",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "mock_error",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'current_user_orgs_test'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=current_user_orgs_test",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "current_user_orgs_test",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'projects_project_get_test'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=projects_project_get_test",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "projects_project_get_test",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'projects_repo_create_project_test'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=projects_repo_create_project_test",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "projects_repo_create_project_test",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'repos_events_test'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=repos_events_test",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "repos_events_test",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'org_members_tests'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=org_members_tests",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "org_members_tests",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'repos_stargazers_tests'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=repos_stargazers_tests",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "repos_stargazers_tests",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'follow_redirect'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=follow_redirect",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "follow_redirect",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug integration test 'team_invitations_tests'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--test=team_invitations_tests",
+                    "--package=octocrab"
+                ],
+                "filter": {
+                    "name": "team_invitations_tests",
+                    "kind": "test"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
